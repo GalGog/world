@@ -11,7 +11,7 @@ import { Component, OnInit } from '@angular/core';
   <input [disabled] = "isDisabled" id = {{myId}} type="text" value="name">
 
 
-  <h2>{{12+2}}</h2>
+  <h2>{{15+2}}</h2>
     <h2>weclome + {{name}}</h2>
     <h2>{{name.length}}</h2>
     <h2>{{name.toUpperCase()}}</h2>
