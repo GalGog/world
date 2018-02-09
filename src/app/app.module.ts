@@ -12,7 +12,9 @@ import { TestComponent } from './test/test.component';
     TestComponent,
   ],
   imports: [
-    BrowserModule
+    BrowserModule,
+
+
   ],
   providers: [],
   bootstrap: [AppComponent]
