@@ -6,6 +6,10 @@ import { Component, OnInit } from '@angular/core';
   <h2>
     Welcome  {{name}}
   </h2>
+  <h2 class="text-success">Codeevolution</h2>
+  <h2 [class] = "successClass">Codeevolution</h2>
+  <h2 [class.text-danger] = "hasError">Codeevolution</h2>
+
 
   <input [id]="myId" type="text" value="name">
   <input [disabled] = "isDisabled" id = {{myId}} type="text" value="name">
@@ -19,7 +23,17 @@ import { Component, OnInit } from '@angular/core';
     <h2>{{siteUrl}}</h2>
 
     `,
-  styles: []
+  styles: [`
+  .text-success{
+    color: green;
+  }
+    .text-danger{
+      color: red;
+    }
+    .text-special{
+      font-style: italic;
+    }
+  `]
 })
 export class TestComponent implements OnInit {
 
@@ -27,6 +41,9 @@ public  name  = 'ODDde';
 public myId = "testId";
 public  siteUrl = window.location.href;
 public isDisabled = false;
+public  successClass = "text-success";
+public hasError = false;
+public isSpecial = true;
 
   constructor() {
     console.log('name');
