@@ -30,7 +30,7 @@ import { Component, OnInit } from '@angular/core';
   <button (click) = "logMessage(myInput.value)">Log</button>
 
 
-  <h2>{{15+2}}</h2>
+  <h2>{{45+2}}</h2>
     <h2>weclome + {{name}}</h2>
     <h2>{{name.length}}</h2>
     <h2>{{name.toUpperCase()}}</h2>
