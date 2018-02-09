@@ -31,7 +31,7 @@ import { Component, OnInit } from '@angular/core';
       color: red;
     }
     .text-special{
-      font-style: italic;
+      font-style: normal;
     }
   `]
 })
