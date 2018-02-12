@@ -52,7 +52,7 @@ import { Component, OnInit } from '@angular/core';
 })
 export class TestComponent implements OnInit {
 
-public  name  = 'ODDde';
+public  name  = 'Odo';
 public myId = "testId";
 public  siteUrl = window.location.href;
 public isDisabled = false;
