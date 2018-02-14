@@ -40,13 +40,16 @@ import { Component, OnInit } from '@angular/core';
     <input  [(ngModel)] = "age" type="text">
     {{age}}
     
-    <h2 *ngIf="displayName ">
+    <h2 *ngIf="displayName ; else elseBlock">
       Lesson 12 Codeevolution 
     </h2>
-    
+  
+    <ng-template #elseBlock> 
     <h4>
       Name is hidden
     </h4>
+    </ng-template>
+    
     `,
   styles: [`
   .text-success{
