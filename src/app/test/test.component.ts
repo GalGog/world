@@ -3,8 +3,8 @@ import { Component, OnInit } from '@angular/core';
 @Component({
   selector: 'app-test',
   template: ` 
-  <div *ngFor="let color of colors; first as f">
-    <h2>{{f}}{{color}}</h2>
+  <div *ngFor="let color of colors; last as l">
+    <h2>{{l}} {{color}}</h2>
     
   </div>
   
