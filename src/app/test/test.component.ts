@@ -36,6 +36,17 @@ import { Component, OnInit } from '@angular/core';
     <h2>{{greetUser()}}</h2>
     <h2>{{siteUrl}}</h2>
     
+    
+    <input  [(ngModel)] = "age" type="text">
+    {{age}}
+    
+    <h2 *ngIf="displayName ">
+      Lesson 12 Codeevolution 
+    </h2>
+    
+    <h4>
+      Name is hidden
+    </h4>
     `,
   styles: [`
   .text-success{
@@ -65,6 +76,10 @@ public titleStyle = {
 }
 public greeting = "";
 
+public age = "lesson11";
+
+
+displayName = true;
   constructor() {
     console.log('name');
     console.log(name);
