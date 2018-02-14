@@ -2,7 +2,8 @@ import { Component, OnInit } from '@angular/core';
 
 @Component({
   selector: 'app-test',
-  template: `
+  template: `    
+    
   <h2>Welcome  {{name}}</h2>
   <button (click)="onClick($event)">Greet</button>
   <button (click)="greeting = 'welcom wishas' ">Greet</button>
@@ -49,6 +50,7 @@ import { Component, OnInit } from '@angular/core';
       Name is hidden
     </h4>
     </ng-template>
+    
     
     `,
   styles: [`
