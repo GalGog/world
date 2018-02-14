@@ -22,12 +22,11 @@ import { Component, OnInit } from '@angular/core';
 
   <input [id]="myId" type="text" value="name">
   <input [disabled] = "isDisabled" id = {{myId}} type="text" value="name">
-  
-  
-  
-  
+
+  <h3> lesson 10
   <input #myInput type="text">
   <button (click) = "logMessage(myInput.value)">Log</button>
+  </h3>
 
 
   <h2>{{45+2}}</h2>
