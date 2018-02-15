@@ -12,7 +12,6 @@ import { Component, OnInit, Input, Output, EventEmitter } from '@angular/core';
 export class TestComponent implements OnInit {
  public colors = ["red", "blue", "green", "yellow"];
  @Input('parentData') public  name;
- @Output() public childEvent = new EventEmitter();
 
   constructor() {
   }
