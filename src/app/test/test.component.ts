@@ -25,13 +25,7 @@ import { Component, OnInit } from '@angular/core';
     <h2>{{date | date:'short'}}</h2>
     <h2>{{date | date:'shortDate'}}</h2>
     <h2>{{date | date:'shortTime'}}</h2>
-
-
-
-
-
-
-
+    
 
   `,
   styles: []
